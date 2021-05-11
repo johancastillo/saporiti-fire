@@ -9,7 +9,7 @@
     <meta name="keywords" content="bootstrap 4, premium, marketing, multipurpose" />
     <meta content="Themesdesign" name="author" />
     <!-- favicon -->
-    <link rel="shortcut icon" href="images/icon.png">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/icon.png') }}">
     <!-- css -->
     <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css' ) }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/materialdesignicons.min.css' ) }}">
@@ -36,8 +36,8 @@
         <div class="container">
             <!-- LOGO -->
             <a class="navbar-brand logo text-uppercase" href="index.html">
-                <img src="images/logo-light.png" class="logo-light" alt="" height="22">
-                <img src="images/logo-dark.png" class="logo-dark" alt="" height="22">
+                <img src="{{ url_for('static', filename='images/logo-white.png') }}" class="logo-light" alt="">
+                <img src="{{ url_for('static', filename='images/logo-color.png') }}" class="logo-dark" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="mdi mdi-menu"></i>

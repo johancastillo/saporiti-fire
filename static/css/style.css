@@ -743,10 +743,14 @@ p {
 
 .logo .logo-light {
   display: inline-block;
+  width: 170px;
+  height: auto;
 }
 
 .logo .logo-dark {
   display: none;
+  width: 170px;
+  height: auto;
 }
 
 .nav-sticky .logo .logo-dark {
